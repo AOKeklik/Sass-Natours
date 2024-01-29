@@ -1,0 +1,57 @@
+.gap {
+	&--s {
+		--gap-h: 2rem;
+		--gap-v: 2rem;
+	}
+	&--m {
+		--gap-h: 4rem;
+		--gap-v: 4rem;
+	}
+	&--l {
+		--gap-h: 6rem;
+		--gap-v: 6rem;
+	}
+}
+
+.container {
+	max-width: 122rem;
+	margin: 0 auto;
+}
+
+.row {
+	&:not(:last-child) {
+		margin-bottom: var(--gap-v);
+	}
+	& > * {
+		float: left;
+	}
+	& > *:not(:last-child) {
+		margin-right: var(--gap-h);
+	}
+	@include clearfix();
+}
+/* 1 */
+.col1of2 {
+	width: calc((100% - var(--gap-h)) / 2);
+}
+.col1of3 {
+	width: calc((100% - (var(--gap-h) * 2)) / 3);
+}
+.col1of4 {
+	width: calc((100% - (var(--gap-h) * 3)) / 4);
+}
+/* 2 */
+.col2of3 {
+	width: calc(((100% - (var(--gap-h) * 2)) / 3) * 2 + var(--gap-h));
+}
+.col2of4 {
+	width: calc(((100% - (var(--gap-h) * 3)) / 4) * 2 + var(--gap-h));
+}
+/* 3 */
+.col3of4 {
+	width: calc(((100% - (var(--gap-h) * 3)) / 4) * 3 + (2 * var(--gap-h)));
+}
+
+/* query */
+@media (max-width: 120em) {
+}
