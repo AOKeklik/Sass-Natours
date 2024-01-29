@@ -1,0 +1,66 @@
+.fade-toleft-1000-0 {
+	backface-visibility: hidden;
+
+	animation: fade 1s 0s both, left 1s 0s both;
+}
+.fade-toright-1000-0 {
+	backface-visibility: hidden;
+
+	animation: fade 1s 0s both, right 1s 0s both;
+}
+.fade-toup-1000-0 {
+	backface-visibility: hidden;
+
+	animation: fade 1s 0s both, up 1s 0s both;
+}
+.fade-toup-500-0 {
+	backface-visibility: hidden;
+
+	animation: fade 0.5s 0s both, up 0.5s 0s both;
+}
+.fade-todown-1000-0 {
+	backface-visibility: hidden;
+
+	animation: fade 0.5s 0s both, down 0.5s 0s both;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes up {
+	0% {
+		transform: translateY(50%);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+@keyframes down {
+	0% {
+		transform: translateY(-50%);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+@keyframes left {
+	0% {
+		transform: translateX(50%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+@keyframes right {
+	0% {
+		transform: translateX(-50%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
