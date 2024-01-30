@@ -35,6 +35,9 @@
 	&--l {
 		margin-bottom: 6rem;
 	}
+	&--xl {
+		margin-bottom: 8rem;
+	}
 }
 .pb {
 	&--s {
@@ -44,6 +47,20 @@
 		padding-bottom: 4rem;
 	}
 	&--l {
+		padding-bottom: 6rem;
+	}
+}
+.py {
+	&--s {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+	&--m {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+	&--l {
+		padding-top: 6rem;
 		padding-bottom: 6rem;
 	}
 }
@@ -60,7 +77,7 @@
 }
 /* bg */
 .bg {
-	&--red {
-		background-color: red;
+	&-gray--light {
+		background-color: $color-gray-light-2;
 	}
 }

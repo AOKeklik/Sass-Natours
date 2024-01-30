@@ -1,16 +1,21 @@
+/* sizing */
 :root {
 	--gap-h: 2rem;
 	--gap-v: 2rem;
 }
+$width-container: 120rem;
 
 /* colors */
 $color-green-light: #7ed56f;
 $color-green-medium: #55c57a;
 $color-green-dark: #28b485;
 
-$color-gray: #777;
-$color-gray-light: #f7f7f7;
-$color-gray-lighter: #eee;
+$color-gray-light-1: #eee;
+$color-gray-light-2: #f7f7f7;
+
+$color-gray-dark-1: #999;
+$color-gray-dark-2: #777;
+$color-gray-dark-3: #333;
 
 $color-white: #fff;
 $color-black: #000;

@@ -14,7 +14,7 @@
 }
 
 .container {
-	max-width: 122rem;
+	max-width: $width-container;
 	margin: 0 auto;
 }
 
@@ -53,5 +53,8 @@
 }
 
 /* query */
-@media (max-width: 120em) {
+@media (max-width: 1260px) {
+	.container {
+		padding: 0 2rem;
+	}
 }

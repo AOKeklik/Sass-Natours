@@ -3,7 +3,11 @@
 @import "./abstract/veriables";
 @import "./abstract/typography";
 
+/* sections */
+@import "./sections/section-about";
+
 /* components */
+@import "./components/composition";
 @import "./components/button";
 @import "./components/header";
 
