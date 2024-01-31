@@ -3,10 +3,9 @@
 @import "./abstract/veriables";
 @import "./abstract/typography";
 
-/* sections */
-@import "./sections/section-about";
-
 /* components */
+@import "./components/sections";
+@import "./components/feature-box";
 @import "./components/composition";
 @import "./components/button";
 @import "./components/header";
