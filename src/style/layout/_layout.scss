@@ -1,16 +1,14 @@
-.gap {
-	&--s {
-		--gap-h: 2rem;
-		--gap-v: 2rem;
-	}
-	&--m {
-		--gap-h: 4rem;
-		--gap-v: 4rem;
-	}
-	&--l {
-		--gap-h: 6rem;
-		--gap-v: 6rem;
-	}
+.gap-s {
+	--gap-h: 2rem;
+	--gap-v: 2rem;
+}
+.gap-m {
+	--gap-h: 4rem;
+	--gap-v: 4rem;
+}
+.gap-l {
+	--gap-h: 6rem;
+	--gap-v: 6rem;
 }
 
 .container {
