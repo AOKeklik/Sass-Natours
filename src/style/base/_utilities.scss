@@ -1,3 +1,22 @@
+/* icons */
+.icon-s {
+	font-size: 2rem;
+}
+.icon-m {
+	font-size: 4rem;
+}
+.icon-l {
+	font-size: 6rem;
+}
+.icon-gradient {
+	background-image: linear-gradient(
+		to right,
+		$color-green-light,
+		$color-green-dark
+	);
+	background-clip: text;
+	color: transparent;
+}
 /* border */
 .rounded-10 {
 	border-radius: 10rem;
@@ -30,6 +49,9 @@
 }
 .mb-xl {
 	margin-bottom: 8rem;
+}
+.p-s {
+	padding: 2rem;
 }
 .pb-s {
 	padding-bottom: 2rem;
@@ -66,4 +88,10 @@
 /* bg */
 .bg-gray-light {
 	background-color: $color-gray-light-2;
+}
+.bg-white-08 {
+	background-color: rgba($color-white, 0.8);
+}
+.bg-shadow {
+	box-shadow: 0 1rem 2rem rgba($color-black, 0.3);
 }

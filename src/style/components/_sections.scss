@@ -1,0 +1,32 @@
+.section-about {
+	margin-top: -20vh;
+	padding: 25rem 0;
+}
+.section-features {
+	padding: 20rem 0;
+	background-image: linear-gradient(
+			to left bottom,
+			rgba($color-green-light, 0.8),
+			rgba($color-green-dark, 0.8)
+		),
+		url(/public/img/nat-4.jpg);
+	background-size: cover;
+	background-position: center;
+	transition: 0.3s;
+
+	transform: skewY(-7deg);
+	margin-top: -10rem;
+
+	& > * {
+		transform: skewY(7deg);
+	}
+	& .col1of4 {
+		transition: 0.3s;
+	}
+	& .col1of4:hover {
+		transform: translateY(-1.5rem);
+	}
+	& .col1of4:hover .bg-shadow {
+		box-shadow: 0 1.5rem 2rem rgba($color-black, 0.3);
+	}
+}
