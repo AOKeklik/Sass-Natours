@@ -39,6 +39,15 @@
 		}
 	}
 
+	&--green {
+		background-color: $color-green-dark;
+		color: $color-white;
+
+		&::after {
+			background-color: $color-green-dark;
+		}
+	}
+
 	&::after {
 		display: inline-block;
 		position: absolute;
