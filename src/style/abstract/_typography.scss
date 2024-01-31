@@ -20,7 +20,7 @@ body {
 }
 .heading-primary {
 	& > * {
-		display: block;
+		display: inline-block;
 	}
 
 	&--main {
