@@ -21,6 +21,9 @@
 .rounded-10 {
 	border-radius: 10rem;
 }
+.rounded-03 {
+	border-radius: 3px;
+}
 /* text */
 .text-white {
 	color: $color-white;
@@ -52,6 +55,9 @@
 }
 .p-s {
 	padding: 2rem;
+}
+.p-l {
+	padding: 6rem;
 }
 .pb-s {
 	padding-bottom: 2rem;
@@ -91,6 +97,9 @@
 }
 .bg-white-08 {
 	background-color: rgba($color-white, 0.8);
+}
+.bg-white-06 {
+	background-color: rgba($color-white, 0.6);
 }
 .bg-shadow {
 	box-shadow: 0 1rem 2rem rgba($color-black, 0.3);
