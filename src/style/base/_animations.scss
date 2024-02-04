@@ -18,6 +18,11 @@
 
 	animation: fade 0.5s 0s both, up 0.5s 0s both;
 }
+.fade-toup-500-500 {
+	backface-visibility: hidden;
+
+	animation: fade 0.5s 0.5s both, up 0.5s 0.5s both;
+}
 .fade-todown-1000-0 {
 	backface-visibility: hidden;
 
