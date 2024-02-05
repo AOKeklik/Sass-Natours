@@ -1,9 +1,6 @@
 /* lato - 100 300 400 700 900 */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
-html {
-	font-size: 62.5%;
-}
 body {
 	font-family: "Lato", sans-serif;
 	color: $color-gray-dark-2;
@@ -27,11 +24,20 @@ body {
 		font-size: 6rem;
 		font-weight: 400;
 		letter-spacing: 3.5rem;
+
+		@include respond(phone) {
+			font-size: 5rem;
+			letter-spacing: 1rem;
+		}
 	}
 	&--sub {
 		font-size: 2rem;
 		font-weight: 700;
 		letter-spacing: 1.75rem;
+
+		@include respond(phone) {
+			letter-spacing: 0.5rem;
+		}
 	}
 }
 .heading-secondary {
@@ -47,6 +53,14 @@ body {
 	color: transparent;
 	-webkit-background-clip: text;
 	transition: transform 0.3s, text-shadow 0.3s;
+
+	@include respond(tab-port) {
+		font-size: 3rem;
+	}
+
+	@include respond(phone) {
+		font-size: 2.5rem;
+	}
 
 	&:hover {
 		transform: skewY(2deg) skewX(15deg) scale(1.1);
