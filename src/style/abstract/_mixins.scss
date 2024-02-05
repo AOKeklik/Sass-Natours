@@ -14,24 +14,24 @@
 }
 
 @mixin respond($breakpoint) {
-	@if $breakpoint == "phone" {
-		@media (max-width: 37.5em) {
-			@content; /* 600 px */
+	@if $breakpoint == phone {
+		@media only screen and (max-width: 37.5em) {
+			@content; /* 600 px - 600/16px = 37.5em */
 		}
 	}
-	@if $breakpoint == "tab-port" {
-		@media (max-width: 56.25em) {
-			@content; /* 900 px */
+	@if $breakpoint == tab-port {
+		@media only screen and (max-width: 56.25em) {
+			@content; /* 900 px - 900/16px = 56.25em  */
 		}
 	}
-	@if $breakpoint == "tab-land" {
-		@media (max-width: 75em) {
-			@content; /* 1200 px */
+	@if $breakpoint == tab-land {
+		@media only screen and (max-width: 75em) {
+			@content; /* 1200 px - 1200/16px = 75em */
 		}
 	}
-	@if $breakpoint == "big-desktop" {
-		@media (max-width: 112.5em) {
-			@content; /* 1800 px */
+	@if $breakpoint == big-desktop {
+		@media only screen and (min-width: 112.5em) {
+			@content; /* 1800 px - 1800/16px = 112.5em */
 		}
 	}
 }
